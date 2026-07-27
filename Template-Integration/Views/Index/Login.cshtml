@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+@model Template_Integration.Models.Login
+<link rel="stylesheet" href="~/css/Auth.css">
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h2>Welcome Back</h2>
+
+        <p>Login to continue shopping.</p>
+
+        <form asp-action="Login" method="post">
+
+            <div class="form-group">
+                <label>Email</label>
+                <input asp-for="Email" type="email" placeholder="Enter Email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input asp-for="Password" type="password" placeholder="Enter Password" class="form-control">
+            </div>
+
+            <div class="auth-row">
+
+                <label>
+                    <input type="checkbox">
+                    Remember Me
+                </label>
+
+                <a href="#">Forgot Password?</a>
+
+            </div>
+
+            <button class="login-btn">
+                Login
+            </button>
+
+        </form>
+
+        <div class="bottom-link">
+            Don't have an account?
+
+            <a asp-controller="Index"
+               asp-action="Register">
+                Create Account
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

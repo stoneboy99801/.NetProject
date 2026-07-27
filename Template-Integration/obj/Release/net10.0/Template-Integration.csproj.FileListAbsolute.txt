@@ -1,0 +1,9 @@
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.csproj.AssemblyReference.cache
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\rpswa.dswa.cache.json
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.AssemblyInfoInputs.cache
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.AssemblyInfo.cs
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.csproj.CoreCompileInputs.cache
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.RazorAssemblyInfo.cache
+C:\Users\Laptronics.co\Downloads\Template-Integration\Template-Integration\obj\Release\net10.0\Template-Integration.RazorAssemblyInfo.cs

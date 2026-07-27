@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NetProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Models\\Product.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Models\\Product.cs",
+              "RelativeToolTip": "Template-Integration\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:31:28.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProducts.cshtml",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Admin\\AddProducts.cshtml",
+              "RelativeDocumentMoniker": "Template-Integration\\Views\\Admin\\AddProducts.cshtml",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Views\\Admin\\AddProducts.cshtml",
+              "RelativeToolTip": "Template-Integration\\Views\\Admin\\AddProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T11:20:55.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Template-Integration\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:12:19.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
