@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\.NetProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\index\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\index\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\.NetProject\\Template-Integration\\Migrations\\20260729105930_testmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Template-Integration\\Migrations\\20260729105930_testmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|c:\\.netproject\\template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B968DE00-2C00-198F-664B-7DF3DAB1F207}|Template-Integration\\Template-Integration.csproj|solutionrelative:template-integration\\views\\admin\\addproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +54,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Index\\Login.cshtml",
+              "RelativeDocumentMoniker": "Template-Integration\\Views\\Index\\Login.cshtml",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Views\\Index\\Login.cshtml",
+              "RelativeToolTip": "Template-Integration\\Views\\Index\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T11:26:37.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Program.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Program.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Program.cs",
+              "RelativeToolTip": "Template-Integration\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:24:43.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Template-Integration\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Template-Integration\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGcCAAAAAAAAAAAAAIwCAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T11:17:39.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Template-Integration\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Template-Integration\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T11:16:35.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Index\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Template-Integration\\Views\\Index\\Dashboard.cshtml",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Views\\Index\\Dashboard.cshtml",
+              "RelativeToolTip": "Template-Integration\\Views\\Index\\Dashboard.cshtml",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAswOYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T11:16:30.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Models\\Register.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Models\\Register.cs",
+              "RelativeToolTip": "Template-Integration\\Models\\Register.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:02:13.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexController.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Controllers\\IndexController.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Controllers\\IndexController.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Controllers\\IndexController.cs",
+              "RelativeToolTip": "Template-Integration\\Controllers\\IndexController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:02:43.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260729105930_testmigration.cs",
+              "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Migrations\\20260729105930_testmigration.cs",
+              "RelativeDocumentMoniker": "Template-Integration\\Migrations\\20260729105930_testmigration.cs",
+              "ToolTip": "C:\\.NetProject\\Template-Integration\\Migrations\\20260729105930_testmigration.cs",
+              "RelativeToolTip": "Template-Integration\\Migrations\\20260729105930_testmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T10:59:30.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Template-Integration\\Models\\Product.cs",
@@ -39,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "AddProducts.cshtml",
               "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Views\\Admin\\AddProducts.cshtml",
               "RelativeDocumentMoniker": "Template-Integration\\Views\\Admin\\AddProducts.cshtml",
@@ -47,18 +183,17 @@
               "RelativeToolTip": "Template-Integration\\Views\\Admin\\AddProducts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-27T11:20:55.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-27T11:20:55.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\.NetProject\\Template-Integration\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Template-Integration\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\.NetProject\\Template-Integration\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Template-Integration\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-27T11:12:19.367Z",
               "EditorCaption": ""

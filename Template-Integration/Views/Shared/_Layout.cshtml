@@ -1,4 +1,7 @@
 ﻿
+@{
+    var userName = Context.Session.GetString("UserName");
+}
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -415,9 +418,27 @@
                                                 <li>
                                                     <a asp-controller="Index" asp-action="Contact">Contact</a>
                                                 </li>
-                                                <li>
-                                                    <a asp-controller="Admin" asp-action="Dashboard">Dashboard</a>
+
+
+                                               
+
+                                                    @if(userName == null ){
+                                                         <li>
+                                                        <a asp-controller="Index" asp-action="Login">Login</a>
                                                 </li>
+
+                                                <li>
+                                                    <a asp-controller="Index" asp-action="Register">Register</a>
+                                                </li>
+                                                        }
+                                                        else
+                                                        {
+                                                           <li>
+                                                               <a asp-action="">Welcome @userName</a>
+                                                           </li> 
+                                                        }
+
+                                                
                                             </ul>
                                         </nav>
                                     </div>
@@ -440,26 +461,8 @@
                                 </div>
                                 <div class="header-action d-flex align-items-center ml-30">
                                     <div class="header-action-item">
-                                        @if (Context.Session.GetString("UserEmail") == null)
-                                        {
-                                            <a asp-controller="Index" asp-action="Login" class="btn btn-outline-dark">
-                                                Login
-                                            </a>
-
-                                            <a asp-controller="Index" asp-action="Register" class="btn btn-dark">
-                                                Register
-                                            </a>
-                                        }
-                                        else
-                                        {
-                                            <span class="me-3">
-                                                Welcome, @Context.Session.GetString("UserName")
-                                            </span>
-
-                                            <a asp-controller="Index" asp-action="Logout" class="btn btn-danger">
-                                                Logout
-                                            </a>
-                                        }
+                                       
+                                        
                                         <a asp-controller="Index" asp-action="Wishlist" class="header-action-btn">
                                             <svg width="23" height="21" viewBox="0 0 23 21" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">

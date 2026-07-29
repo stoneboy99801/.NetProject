@@ -34,6 +34,10 @@ namespace Template_Integration.Controllers
         public IActionResult BlogGrid() => View();
         public IActionResult BlogDetails() => View();
         public IActionResult Contact() => View();
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Contact(Contact c)
@@ -48,26 +52,32 @@ namespace Template_Integration.Controllers
         public IActionResult Login() => View();
         [HttpPost]
         
-        public IActionResult Login(Login R)
+        public IActionResult Login(Register R)
         {
-            if (!ModelState.IsValid)
-                return View(R);
+           
 
             var user = _Db.RegisterForm.FirstOrDefault(x =>
-                x.Email == R.Email &&
-                x.Password == R.Password);
-
-            if (user == null)
+                x.Email == R.Email);
+            if (user != null && user.Password == R.Password && user.Role == "Owner")
             {
-                ModelState.AddModelError("", "Invalid Email or Password");
-                return View(R);
+                HttpContext.Session.SetString("Sessionid", user.Id.ToString());
+                HttpContext.Session.SetString("Sessionname", user.Name);
+
+                return RedirectToAction("Dashboard");
+            }
+            else if (user != null && user.Password == R.Password && user.Role == "User")
+            {
+                HttpContext.Session.SetString("Sessionid", user.Id.ToString());
+                HttpContext.Session.SetString("Sessionname", user.Name);
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Login");
             }
 
-            // Session set karo
-            HttpContext.Session.SetString("UserName", user.Name);
-            HttpContext.Session.SetString("UserEmail", user.Email);
-
-            return RedirectToAction("Index");
+            
         }
         public IActionResult Register() => View();
         [HttpPost]

@@ -1,0 +1,245 @@
+﻿@{
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+<!-- ===== MAIN ===== -->
+<div class="main">
+
+    <div class="topbar">
+        <div class="search-box">
+            <span>🔍</span>
+            <input type="text" placeholder="Search orders, products, customers...">
+        </div>
+        <div class="topbar-right">
+            <div class="icon-btn">🔔<span class="dot-alert"></span></div>
+            <div class="icon-btn">✉</div>
+            <div class="profile">
+                <div class="avatar">HN</div>
+                <div>
+                    <div class="profile-name">Hassan Awan</div>
+                    <div class="profile-role">Store Owner</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="page-head">
+            <div>
+                <h1>Store Overview</h1>
+                <p>Welcome back — here's what's happening with your store today.</p>
+            </div>
+            <button class="export-btn">⬇ Export Report</button>
+        </div>
+
+        <!-- STAT CARDS -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-top">
+                    <div class="stat-icon" style="background:rgba(23,182,167,0.12); color:var(--teal-dark);">💰</div>
+                    <div class="stat-trend trend-up">▲ 12.4%</div>
+                </div>
+                <div class="stat-value">Rs 842,300</div>
+                <div class="stat-label">Total Revenue</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <div class="stat-icon" style="background:rgba(255,107,74,0.12); color:var(--coral);">🧾</div>
+                    <div class="stat-trend trend-up">▲ 8.1%</div>
+                </div>
+                <div class="stat-value">1,284</div>
+                <div class="stat-label">Total Orders</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <div class="stat-icon" style="background:rgba(16,27,51,0.08); color:var(--navy);">👥</div>
+                    <div class="stat-trend trend-up">▲ 4.6%</div>
+                </div>
+                <div class="stat-value">3,927</div>
+                <div class="stat-label">Total Customers</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <div class="stat-icon" style="background:rgba(245,165,36,0.14); color:var(--warning);">📦</div>
+                    <div class="stat-trend trend-down">▼ 2.3%</div>
+                </div>
+                <div class="stat-value">46</div>
+                <div class="stat-label">Low Stock Items</div>
+            </div>
+        </div>
+
+        <!-- MIDDLE GRID: CHART + TOP PRODUCTS -->
+        <div class="mid-grid">
+            <div class="panel">
+                <div class="panel-head">
+                    <h3>Weekly Sales</h3>
+                    <span class="panel-link">View report →</span>
+                </div>
+                <div class="chart">
+                    <div class="bar-wrap"><div class="bar" style="height:58%;"></div><span class="bar-label">Mon</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:74%;"></div><span class="bar-label">Tue</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:48%;"></div><span class="bar-label">Wed</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:88%; background:linear-gradient(180deg, var(--coral), #E85A3D);"></div><span class="bar-label">Thu</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:65%;"></div><span class="bar-label">Fri</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:92%;"></div><span class="bar-label">Sat</span></div>
+                    <div class="bar-wrap"><div class="bar" style="height:71%;"></div><span class="bar-label">Sun</span></div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-head">
+                    <h3>Top Products</h3>
+                    <span class="panel-link">See all →</span>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb" style="background:rgba(23,182,167,0.12);">🎧</div>
+                    <div class="product-info">
+                        <div class="product-name">Wireless Earbuds Pro</div>
+                        <div class="product-sold">312 sold</div>
+                    </div>
+                    <div class="product-price">Rs 4,999</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb" style="background:rgba(255,107,74,0.12);">👟</div>
+                    <div class="product-info">
+                        <div class="product-name">Running Sneakers</div>
+                        <div class="product-sold">208 sold</div>
+                    </div>
+                    <div class="product-price">Rs 6,450</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb" style="background:rgba(16,27,51,0.08);">⌚</div>
+                    <div class="product-info">
+                        <div class="product-name">Smart Watch Series 4</div>
+                        <div class="product-sold">176 sold</div>
+                    </div>
+                    <div class="product-price">Rs 12,200</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb" style="background:rgba(245,165,36,0.14);">🎒</div>
+                    <div class="product-info">
+                        <div class="product-name">Travel Backpack</div>
+                        <div class="product-sold">94 sold</div>
+                    </div>
+                    <div class="product-price">Rs 3,150</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ORDERS TABLE -->
+        <div class="orders-panel">
+            <div class="orders-head">
+                <h3>Recent Orders</h3>
+                <div class="filter-tabs">
+                    <div class="filter-tab active">All</div>
+                    <div class="filter-tab">Pending</div>
+                    <div class="filter-tab">Shipped</div>
+                    <div class="filter-tab">Delivered</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="order-id">#ORD-8421</td>
+                        <td>
+                            <div class="cust-cell">
+                                <div class="cust-avatar" style="background:#17B6A7;">AS</div>
+                                <div>
+                                    <div class="cust-name">Ayesha Siddiqui</div>
+                                    <div class="cust-email">ayesha.s@mail.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>Wireless Earbuds Pro</td>
+                        <td>16 Jul, 2026</td>
+                        <td>Rs 4,999</td>
+                        <td><span class="status-pill status-delivered">Delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td class="order-id">#ORD-8420</td>
+                        <td>
+                            <div class="cust-cell">
+                                <div class="cust-avatar" style="background:#FF6B4A;">BK</div>
+                                <div>
+                                    <div class="cust-name">Bilal Khan</div>
+                                    <div class="cust-email">bilal.k@mail.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>Smart Watch Series 4</td>
+                        <td>16 Jul, 2026</td>
+                        <td>Rs 12,200</td>
+                        <td><span class="status-pill status-shipped">Shipped</span></td>
+                    </tr>
+                    <tr>
+                        <td class="order-id">#ORD-8419</td>
+                        <td>
+                            <div class="cust-cell">
+                                <div class="cust-avatar" style="background:#101B33;">MF</div>
+                                <div>
+                                    <div class="cust-name">Maria Fatima</div>
+                                    <div class="cust-email">maria.f@mail.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>Running Sneakers</td>
+                        <td>15 Jul, 2026</td>
+                        <td>Rs 6,450</td>
+                        <td><span class="status-pill status-pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td class="order-id">#ORD-8418</td>
+                        <td>
+                            <div class="cust-cell">
+                                <div class="cust-avatar" style="background:#F5A524;">UZ</div>
+                                <div>
+                                    <div class="cust-name">Umar Zaman</div>
+                                    <div class="cust-email">umar.z@mail.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>Travel Backpack</td>
+                        <td>15 Jul, 2026</td>
+                        <td>Rs 3,150</td>
+                        <td><span class="status-pill status-cancelled">Cancelled</span></td>
+                    </tr>
+                    <tr>
+                        <td class="order-id">#ORD-8417</td>
+                        <td>
+                            <div class="cust-cell">
+                                <div class="cust-avatar" style="background:#17B6A7;">SR</div>
+                                <div>
+                                    <div class="cust-name">Sana Raza</div>
+                                    <div class="cust-email">sana.r@mail.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>Wireless Earbuds Pro</td>
+                        <td>14 Jul, 2026</td>
+                        <td>Rs 4,999</td>
+                        <td><span class="status-pill status-delivered">Delivered</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
