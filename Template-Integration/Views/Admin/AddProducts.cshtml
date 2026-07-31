@@ -5,11 +5,20 @@
 <div class="panel">
 
     <div class="panel-head">
-        <h2>Add New Product</h2>        
+        <h2>Add New Product</h2>
         <p>Fill all product details below.</p>
+
+
     </div>
 
-    <form asp-action="AddProducts"  method="post" enctype="multipart/form-data">
+    @if(ViewBag.Message != null)
+
+    {
+        <div class="alert alert-success">
+            @ViewBag.Message
+        </div>
+    }
+    <form asp-action="AddProducts" method="post" enctype="multipart/form-data">
 
         <div class="form-grid">
 
@@ -40,7 +49,7 @@
             <div class="form-group full">
                 <label>Product Image</label>
 
-                <input asp-for="ProductImage"
+                <input asp-for="ProductImageFile"
                        type="file"
                        accept="image/*"
                        onchange="previewImage(event)" />
@@ -61,17 +70,17 @@
 </div>
 
 <script>
-function previewImage(event){
+    function previewImage(event){
 
-    let reader = new FileReader();
+        let reader = new FileReader();
 
-    reader.onload = function(){
+        reader.onload = function(){
 
-        document.getElementById("preview").src = reader.result;
+            document.getElementById("preview").src = reader.result;
+
+        }
+
+        reader.readAsDataURL(event.target.files[0]);
 
     }
-
-    reader.readAsDataURL(event.target.files[0]);
-
-}
 </script>

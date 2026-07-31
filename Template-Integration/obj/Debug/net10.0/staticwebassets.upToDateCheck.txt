@@ -225,6 +225,8 @@ wwwroot\fonts\fa-thin-100.ttf
 wwwroot\fonts\fa-thin-100.woff2
 wwwroot\fonts\fa-v4compatibility.ttf
 wwwroot\fonts\fa-v4compatibility.woff2
+wwwroot\images\images (1).jpg
+wwwroot\images\New Project.png
 wwwroot\imgs\app\apple-store.png
 wwwroot\imgs\app\play-store.png
 wwwroot\imgs\banner\ad.jpg

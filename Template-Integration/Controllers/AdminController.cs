@@ -58,41 +58,34 @@ namespace Template_Integration.Controllers
         [HttpPost]
         public IActionResult AddProducts(Product model)
         {
-            if (ModelState.IsValid)
+            if (model.ProductImageFile != null)
             {
-                if (model.ProductImageFile != null)
+                string folderPath = Path.Combine(_env.WebRootPath, "images");
+
+                if (!Directory.Exists(folderPath))
                 {
-                    string folder = Path.Combine(_env.WebRootPath, "images", "products");
-
-                    if (!Directory.Exists(folder))
-                    {
-                        Directory.CreateDirectory(folder);
-                    }
-
-                    string fileName = Guid.NewGuid().ToString() +
-                                      Path.GetExtension(model.ProductImageFile.FileName);
-
-                    string filePath = Path.Combine(folder, fileName);
-
-                    using (FileStream stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        model.ProductImageFile.CopyTo(stream);
-                    }
-
-                    model.ProductImage = "/images/products/" + fileName;
+                    Directory.CreateDirectory(folderPath);
                 }
 
-                _Db.AddProducts.Add(model);
+                string fileName = Path.GetFileName(model.ProductImageFile.FileName);
+                string filePath = Path.Combine(folderPath, fileName);
 
-                _Db.SaveChanges();
+                using (FileStream fs = new FileStream(filePath, FileMode.Create))
+                {
+                    model.ProductImageFile.CopyTo(fs);
+                }
 
-                TempData["Success"] = "Product Added Successfully";
-
-                return RedirectToAction("ProductList");
-
+                // Save file name in database
+                model.ProductImage = fileName;
             }
 
+            _Db.AddProducts.Add(model);
+            _Db.SaveChanges();
+            ModelState.Clear();
+            ViewBag.Message = "Product Added Successfully!";
+
             return View();
+
         }
         public IActionResult ProductList()
         {

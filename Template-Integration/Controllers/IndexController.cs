@@ -18,7 +18,7 @@ namespace Template_Integration.Controllers
         {
             var data = _Db.AddProducts.ToList();
             return View(data);
-            
+
         }
         public IActionResult ProductDetails() => View();
         public IActionResult Wishlist() => View();
@@ -51,10 +51,10 @@ namespace Template_Integration.Controllers
         }
         public IActionResult Login() => View();
         [HttpPost]
-        
+
         public IActionResult Login(Register R)
         {
-           
+
 
             var user = _Db.RegisterForm.FirstOrDefault(x =>
                 x.Email == R.Email);
@@ -62,6 +62,7 @@ namespace Template_Integration.Controllers
             {
                 HttpContext.Session.SetString("Sessionid", user.Id.ToString());
                 HttpContext.Session.SetString("Sessionname", user.Name);
+                HttpContext.Session.SetString("SessionRole", user.Role);
 
                 return RedirectToAction("Dashboard");
             }
@@ -69,6 +70,7 @@ namespace Template_Integration.Controllers
             {
                 HttpContext.Session.SetString("Sessionid", user.Id.ToString());
                 HttpContext.Session.SetString("Sessionname", user.Name);
+                HttpContext.Session.SetString("SessionRole", user.Role);
 
                 return RedirectToAction("Index");
             }
@@ -77,13 +79,13 @@ namespace Template_Integration.Controllers
                 return RedirectToAction("Login");
             }
 
-            
+
         }
         public IActionResult Register() => View();
         [HttpPost]
         public IActionResult Register(Register R)
         {
-            if(R.Password != R.ConfirmPassword)
+            if (R.Password != R.ConfirmPassword)
             {
                 ModelState.AddModelError("ConfirmPassword", "Passwords do not match.");
                 return View(R);

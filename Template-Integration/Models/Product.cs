@@ -20,7 +20,7 @@ namespace Template_Integration.Models
         [Required]
         public decimal DiscountedPrice { get; set; }
 
- 
+        [Required]
         public string ProductImage { get; set; }
 
         [NotMapped]

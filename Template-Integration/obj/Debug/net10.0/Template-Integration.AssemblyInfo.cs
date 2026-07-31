@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Template-Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e27d4bb366ecf693bd0105021978d330230935a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8ce26ead3f2eb460c26a173e0cfaf74ab8c862e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Template-Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Template-Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

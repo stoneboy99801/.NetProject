@@ -1,6 +1,6 @@
-﻿
-@{
+﻿@{
     var userName = Context.Session.GetString("Sessionname");
+    var userRole = Context.Session.GetString("SessionRole");
 }
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -360,7 +360,7 @@
                     </div>
                 </div>
             </div>
-            <div class="header-layout-4 header-bottom"> 
+            <div class="header-layout-4 header-bottom">
                 <div id="header-sticky" class="header-4">
                     <div class="mega-menu-wrapper">
                         <div class="header-main-4">
@@ -422,24 +422,31 @@
 
                                                
 
-                                                    @if(userName == null ){
-                                                         <li>
+                                                @if (userName == null)
+                                                {
+                                                    <li>
                                                         <a asp-controller="Index" asp-action="Login">Login</a>
-                                                </li>
+                                                    </li>
 
-                                                <li>
-                                                    <a asp-controller="Index" asp-action="Register">Register</a>
-                                                </li>
-                                                        }
-                                                        else
-                                                        {
-                                                           <li>
-                                                               <a asp-action="">Welcome @userName</a>
-                                                           </li> 
-                                                           <li>
-                                                               <a asp-action="Logout">Logout</a>
-                                                           </li>
-                                                        }
+                                                    <li>
+                                                        <a asp-controller="Index" asp-action="Register">Register</a>
+                                                    </li>
+                                                }
+                                                else
+                                                {
+                                                    <li>
+                                                        <a asp-action="">Welcome @userName</a>
+                                                    </li>
+                                                    if (userRole == "Owner")
+                                                    {
+                                                        <li>
+                                                            <a asp-controller="Index" asp-action="Dashboard">Dashboard</a>
+                                                        </li>
+                                                    }
+                                                    <li>
+                                                        <a asp-action="Logout">Logout</a>
+                                                    </li>
+                                                }
 
                                                 
                                             </ul>
@@ -464,8 +471,8 @@
                                 </div>
                                 <div class="header-action d-flex align-items-center ml-30">
                                     <div class="header-action-item">
+
                                        
-                                        
                                         <a asp-controller="Index" asp-action="Wishlist" class="header-action-btn">
                                             <svg width="23" height="21" viewBox="0 0 23 21" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
